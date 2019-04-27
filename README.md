@@ -29,4 +29,4 @@ For example, if passage_id is 4, then you are looking at the 5th passage. While 
 For sake of illustration, we show a sample row in train set (data.tsv) below:
 
 ## Step-wise Procedure
-
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
