@@ -184,15 +184,6 @@ class Simp_Model_Siamese(nn.Module):
         mis_class = list(passages.shape)[1]
         n = list(passages.shape)[0]
         scores = []
-       # for j in range(n):
-       #     p_per_batch = []
-       #     for i in range(mis_class):
-       #        p_eval = passages[j,i,:,:,:].view(1,1,50,50)
-       #        for module in self.seq_module_p:
-       #          p_eval = module(p_eval)
-       #        p_per_batch.append(p_eval.view(4))
-       #     score = self.self_module_final(torch.mul(q[j].view(1,4),torch.stack(p_per_batch)))
-       #     scores.append(score)
 
         for i in range(mis_class):
             p_eval = passages[:,i,:,:,:]

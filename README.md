@@ -30,3 +30,8 @@ For sake of illustration, we show a sample row in train set (data.tsv) below:
 
 ## Step-wise Procedure
 ![alt text](https://github.com/deepdreamers2018/ms_aichallenge/blob/master/MS_AI_code_flow.png)
+
+Contributors:
+Kirnesh Nandan
+Prateek Sinha
+Arunesh Nandan
